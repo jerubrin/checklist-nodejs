@@ -521,7 +521,7 @@ function getFormatedText(text) {
 }
 
 export const LANG = 'rs-checklist-lang'
-const DEFAULT_LANG = 'ru'
+const DEFAULT_LANG = 'en'
 
 export function getLang () {
   const langRes = localStorage.getItem(LANG);
