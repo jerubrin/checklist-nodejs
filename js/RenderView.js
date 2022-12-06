@@ -521,15 +521,40 @@ function getFormatedText(text) {
 }
 
 function addTags(text, chars, tagName) {
+  let isOpened = false
   return text
     .split(chars)
-    .map((text, i, arr) =>
-      (i < (arr.length - 1))
-        ? [text, ((i % 2) === 0 ? `<${tagName}>` : `</${tagName}>`)]
-        : text
+    .map((text, i, arr) => {
+      const tag = !isOpened ? `<${tagName}>` : tagName != 'br' ? `</${tagName}>` : `<${tagName}>`
+      if(!isOpened
+        && (i < (arr.length - 1)
+        && (text == '' || isSpaceSymbol( text[text.length - 1] )))
+      ) {
+        isOpened = true
+        return text + tag
+      }
+      if(isOpened
+        && (i < (arr.length - 1)
+        && (arr[i+1] == '' || isSpaceSymbol(arr[i+1][0])))
+      ) {
+        isOpened = false
+        return text + tag
+      }
+      if (i < (arr.length - 1)) return text + chars;
+      return text;
+    }
     )
     .flat()
     .join('')
+}
+
+function isSpaceSymbol(ch) {
+  return ch == ' ' || ch == ',' || ch == ';'
+      || ch == '(' || ch == '[' || ch == '{'
+      || ch == ')' || ch == ']' || ch == '}'
+      || ch == '-' || ch == '+' || ch == '='
+      || ch == '<' || ch == '>'
+      || ch == '\n' || ch == '\t'
 }
 
 export const LANG = 'rs-checklist-lang'
