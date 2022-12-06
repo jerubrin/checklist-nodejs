@@ -18,27 +18,27 @@
     },
     {
       "type": "subtask", 
-      "text": "GET `api/users` implemented properly",
+      "text": "**GET** `api/users` implemented properly",
       "max": 10
     },
     {
       "type": "subtask", 
-      "text": "GET `api/users/${userId}` implemented properly",
+      "text": "**GET** `api/users/${userId}` implemented properly",
       "max": 10
     },
     {
       "type": "subtask", 
-      "text": "POST `api/users` implemented properly",
+      "text": "**POST** `api/users` implemented properly",
       "max": 10
     },
     {
       "type": "subtask", 
-      "text": "PUT `api/users/{userId}` implemented properly",
+      "text": "**PUT** `api/users/{userId}` implemented properly",
       "max": 10
     },
     {
       "type": "subtask", 
-      "text": "DELETE `api/users/${userId}` implemented properly",
+      "text": "**DELETE** `api/users/${userId}` implemented properly",
       "max": 10
     },
     {
@@ -86,12 +86,12 @@
     },
     {
       "type": "subtask", 
-      "text": "There are tests for API (not less than 3 scenarios)",
+      "text": "There are tests for API (not less than **3** scenarios)",
       "max": 30
     },
     {
       "type": "subtask", 
-      "text": "There is horizontal scaling for application with a load balancer",
+      "text": "There is horizontal scaling for application with a **load balancer**",
       "max": 50
     },
     
