@@ -28,7 +28,7 @@
     },
     {
       "type": "subtask", 
-      "text": "The application code that worked with Albums instance instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)",
+      "text": "The application code that worked with `Albums` instance instance divided into modules according to to its purpose and Nest.js architecture conventions (work with request and response in controller, business logic in service, etc.)",
       "max": 20
     },
     {
