@@ -609,6 +609,7 @@ label:hover {
 .tasks-list {
   display: flex;
   flex-direction: column;
+  width: fit-content;
   margin: 0 auto;
   text-align: center;
   transition: all .3s ease-out;
@@ -624,8 +625,8 @@ label:hover {
 
 .taskContainer {
   display: flex;
-  width: 35%;
-  margin: auto;
+  width: auto;
+  /* margin: auto; */
   align-items: center;
 }
 
