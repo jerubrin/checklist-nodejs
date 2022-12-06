@@ -43,7 +43,7 @@
     },
     {
       "type": "subtask", 
-      "text": "For each successfully passed test",
+      "text": "(developing) For each successfully passed test",
       "max": 10
     },
     {
