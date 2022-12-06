@@ -5,6 +5,10 @@
   "criteria": [
     {
       "type": "title",
+      "title": "Max score: 320"
+    },
+    {
+      "type": "title",
       "title": "Basic Scope"
     },
     {
@@ -171,12 +175,12 @@
     },
     {
       "type": "penalty",
-      "text": "of total task score Any external tools/libraries are used",
+      "text": "Any external tools/libraries are used",
       "max": "-95%"
     },
     {
       "type": "penalty",
-      "text": "of total task score Commits after deadline (except commits that affect only `Readme.md`, `.gitignore`, etc.)",
+      "text": "Commits after deadline (except commits that affect only `Readme.md`, `.gitignore`, etc.)",
       "max": "-30%"
     }
   ]
