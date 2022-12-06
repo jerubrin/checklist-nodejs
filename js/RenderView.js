@@ -509,11 +509,23 @@ export function render(criteria, taskName, information) {
 
 //chande `some code` to <code>some code</code>
 function getFormatedText(text) {
+  let textWithTags = addTags(text, '`', 'code')
+  textWithTags = addTags(textWithTags, '***', 'bi')
+  textWithTags = addTags(textWithTags, '___', 'bi')
+  textWithTags = addTags(textWithTags, '**', 'b')
+  textWithTags = addTags(textWithTags, '__', 'b')
+  textWithTags = addTags(textWithTags, '*', 'i')
+  textWithTags = addTags(textWithTags, '_', 'i')
+  textWithTags = addTags(textWithTags, '~~', 'del')
+  return textWithTags;
+}
+
+function addTags(text, chars, tagName) {
   return text
-    .split('`')
+    .split(chars)
     .map((text, i, arr) =>
       (i < (arr.length - 1))
-        ? [text, ((i % 2) === 0 ? '<code>' : '</code>')]
+        ? [text, ((i % 2) === 0 ? `<${tagName}>` : `</${tagName}>`)]
         : text
     )
     .flat()
