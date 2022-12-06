@@ -37,27 +37,27 @@
     {
       "type": "subtask", 
       "text": "Move mouse up implemented properly",
-      "max": 6
+      "max": 4
     },
     {
       "type": "subtask", 
       "text": "Move mouse down implemented properly",
-      "max": 6
+      "max": 4
     },
     {
       "type": "subtask", 
       "text": "Move mouse left implemented properly",
-      "max": 6
+      "max": 4
     },
     {
       "type": "subtask", 
       "text": "Move mouse right implemented properly",
-      "max": 6
+      "max": 4
     },
     {
       "type": "subtask", 
       "text": "Send mouse coordinates implemented properly",
-      "max": 6
+      "max": 4
     },
     {
       "type": "title",
