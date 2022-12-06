@@ -1,0 +1,15 @@
+{
+  "taskName": "8. REST Service: Part 2",
+  "github": "https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/rest-service/assignment.md",
+  "information": "Scoring: REST Service (developing)",
+  "criteria": [
+    {
+      "type": "title",
+      "title": "Max score: 360"
+    },
+    {
+      "type": "title",
+      "title": "(developing)"
+    }
+  ]
+}
