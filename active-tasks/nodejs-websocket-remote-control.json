@@ -1,0 +1,140 @@
+{
+  "taskName": "4. Websocket remote control",
+  "github": "https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/remote-control/assignment.md",
+  "information": "Scoring: Websocket remote control",
+  "criteria": [
+    {
+      "type": "title",
+      "title": "Max score: 164"
+    },
+    {
+      "type": "title",
+      "title": "Basic Scope"
+    },
+    {
+      "type": "title",
+      "title": "Websocket"
+    },
+    {
+      "type": "subtask", 
+      "text": "Implemented workable websocket server",
+      "max": 6
+    },
+    {
+      "type": "subtask", 
+      "text": "Websocket server message handler implemented properly",
+      "max": 10
+    },
+    {
+      "type": "subtask", 
+      "text": "Websocket server message sender implemented properly",
+      "max": 10
+    },
+    {
+      "type": "title",
+      "title": "Navigation"
+    },
+    {
+      "type": "subtask", 
+      "text": "Move mouse up implemented properly",
+      "max": 6
+    },
+    {
+      "type": "subtask", 
+      "text": "Move mouse down implemented properly",
+      "max": 6
+    },
+    {
+      "type": "subtask", 
+      "text": "Move mouse left implemented properly",
+      "max": 6
+    },
+    {
+      "type": "subtask", 
+      "text": "Move mouse right implemented properly",
+      "max": 6
+    },
+    {
+      "type": "subtask", 
+      "text": "Send mouse coordinates implemented properly",
+      "max": 6
+    },
+    {
+      "type": "title",
+      "title": "Drawing"
+    },
+    {
+      "type": "subtask", 
+      "text": "Draw circle implemented properly",
+      "max": 6
+    },
+    {
+      "type": "subtask", 
+      "text": "Draw rectangle implemented properly",
+      "max": 6
+    },
+    {
+      "type": "subtask", 
+      "text": "Draw square implemented properly",
+      "max": 6
+    },
+    {
+      "type": "title",
+      "title": "Screen image"
+    },
+    {
+      "type": "subtask", 
+      "text": "Send screen image implemented properly (optionally)",
+      "max": 30
+    },
+    {
+      "type": "title",
+      "title": "Advanced Scope"
+    },
+    {
+      "type": "subtask", 
+      "text": "Task implemented on Typescript",
+      "max": 30
+    },
+    {
+      "type": "subtask", 
+      "text": "All data transfer operations with send/get should be performed using Streams API",
+      "max": 20
+    },
+    {
+      "type": "subtask", 
+      "text": "Codebase is separated (at least 4 modules)",
+      "max": 20
+    },
+    
+    {
+      "type": "title",
+      "title": "Forfeits"
+    },
+    {
+      "type": "penalty",
+      "text": "Any external tools except `ws`, `robotjs`, `jimp`, `cross-env`, `dotenv`, `typescript`, `ts-node`, `ts-node-dev`, `nodemon`, `eslint` and its plugins, `webpack` and its plugins, `prettier`, `@types/*` and testing tools (for example, Jest, Mocha, AVA, Jasmine, Cypress, Storybook, Puppeteer)",
+      "max": "-95%"
+    },
+    {
+      "type": "penalty",
+      "text": "Commits after deadline (except commits that affect only Readme.md, .gitignore, etc.)",
+      "max": "-30%"
+    },
+    {
+      "type": "penalty",
+      "text": "Missing PR or its description is incorrect",
+      "max": -10
+    },
+    {
+      "type": "penalty",
+      "text": "No separate development branch",
+      "max": -10
+    },
+    {
+      "type": "penalty",
+      "text": "Less than 3 commits in the development branch, not including commits that make changes only to `Readme.md` or similar files (`tsconfig.json`, `.gitignore`, `.prettierrc.json`, etc.)",
+      "max": -10
+    }
+  ]
+}

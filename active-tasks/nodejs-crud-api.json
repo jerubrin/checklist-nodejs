@@ -1,7 +1,7 @@
 {
-  "taskName": "2. File Manager",
-  "github": "https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/file-manager/assignment.md",
-  "information": "Scoring: File Manager",
+  "taskName": "3. CRUD API",
+  "github": "https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/assignment.md",
+  "information": "Scoring: CRUD API",
   "criteria": [
     {
       "type": "title",
